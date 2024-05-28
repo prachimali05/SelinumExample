@@ -15,7 +15,7 @@ public static void main(String[] args) throws InterruptedException {
 		driver.get("https://www.chat.openai.com");
 		driver.manage() .window() .maximize();
 		
-	WebElement username = driver.findElement(By.classname("relative"));
+	WebElement username = driver.findElement(By.className("relative"));
 	username.sendKeys("prachii_mali_05");
 	
     Thread.sleep(100);
@@ -32,4 +32,4 @@ public static void main(String[] args) throws InterruptedException {
 }
 
 
-}
+
